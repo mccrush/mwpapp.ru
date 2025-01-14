@@ -9,9 +9,9 @@ const count = ref(0);
 </script>
 
 <template>
-  <div>
-    <h1 class="display-1 lh-1 m-0"><strong>MWP</strong></h1>
-    <p class="display-6 fw-light lh-1 m-0">менеджер веб-проектов</p>
+  <div class="pb-5">
+    <h1 class="display-1 fw-normal lh-1 m-0"><strong>MWP</strong></h1>
+    <p class="display-6 lh-1 m-0">менеджер веб-проектов</p>
 
     <div class="row mt-5">
       <div class="col-12 col-sm-6">
@@ -36,6 +36,6 @@ const count = ref(0);
 
 <style scoped>
 .display-1 {
-  font-size: calc(6.625rem + 4.5vw);
+  font-size: calc(5.625rem + 4.5vw);
 }
 </style>
