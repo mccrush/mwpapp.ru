@@ -9,19 +9,33 @@ const count = ref(0);
 </script>
 
 <template>
-  <div class="text-center mt-5 pt-5">
-    <h1 class="display-4"><strong>MWP</strong><br />менеджер веб-проектов</h1>
+  <div>
+    <h1 class="display-1 lh-1 m-0"><strong>MWP</strong></h1>
+    <p class="display-6 fw-light lh-1 m-0">менеджер веб-проектов</p>
 
-    <p class="fs-4 mt-5">
-      Вы можете
-      <a href="https://app.mwpapp.ru" target="_blank">перейти в приложение</a
-      ><br />
-      или сначала
-      <a href="https://doc.mwpapp.ru" target="_blank">ознакомиться</a> с
-      руководством пользователя
-    </p>
+    <div class="row mt-5">
+      <div class="col-12 col-sm-6">
+        <a
+          class="btn btn-outline-light w-100"
+          href="https://app.mwpapp.ru"
+          target="_blank"
+          >Приложение</a
+        >
+      </div>
+      <div class="col-12 col-sm-6 mt-3 mt-sm-0">
+        <a
+          class="btn btn-outline-light w-100"
+          href="https://doc.mwpapp.ru"
+          target="_blank"
+          >Руководство</a
+        >
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.display-1 {
+  font-size: calc(6.625rem + 4.5vw);
+}
 </style>
