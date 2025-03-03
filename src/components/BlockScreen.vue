@@ -1,6 +1,6 @@
 <template>
   <div
-    class="d-flex flex-column justify-content-center align-items-center bg-dark vh-100"
+    class="d-flex flex-column justify-content-center align-items-center bg-body-secondary vh-100"
   >
     <img
       class="my-screen-image"
