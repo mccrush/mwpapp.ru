@@ -1,9 +1,11 @@
 <template>
   <div
-    class="bg-success d-flex flex-column justify-content-center vw-100 vh-100 pb-5"
+    class="d-flex flex-column justify-content-center align-items-center bg-dark vh-100"
   >
-    <div class="mx-auto p-0 m-0">
-      <h1 class="display-1 fw-normal lh-1 m-0"><strong>MWP</strong></h1>
+    <div>
+      <h1 class="display-1 fw-normal text-center lh-1 m-0">
+        <strong>MWP</strong>
+      </h1>
       <p class="display-6 lh-1 m-0">менеджер веб-проектов</p>
 
       <div class="row mt-5">

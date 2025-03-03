@@ -1,8 +1,8 @@
 <template>
   <div
-    class="bg-success d-flex flex-column justify-content-center vw-100 vh-100 pb-5"
+    class="bg-warning d-flex flex-column justify-content-center vw-100 vh-100 pb-5"
   >
-    <div class="mx-auto p-0 m-0">
+    <div class="mx-auto">
       <h1 class="display-1 fw-normal lh-1 m-0"><strong>MWP</strong></h1>
       <p class="display-6 lh-1 m-0">менеджер веб-проектов</p>
 
