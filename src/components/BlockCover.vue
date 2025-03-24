@@ -6,7 +6,7 @@
       <h1 class="display-1 fw-normal text-center lh-1 m-0">
         <strong>MWP</strong>
       </h1>
-      <p class="display-6 lh-1 m-0">менеджер веб-проектов</p>
+      <p class="display-6 text-center lh-1 m-0">менеджер веб-проектов</p>
 
       <div class="row mt-5">
         <div class="col-12 col-sm-6">
